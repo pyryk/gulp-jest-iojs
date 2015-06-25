@@ -1,20 +1,19 @@
-[![Build Status](https://travis-ci.org/Dakuan/gulp-jest.svg?branch=master)](https://travis-ci.org/Dakuan/gulp-jest)
+[![Build Status](https://travis-ci.org/binarykitchen/gulp-jest-iojs.svg?branch=master)](https://travis-ci.org/binarykitchen/gulp-jest-iojs)
 
-# [gulp](http://gulpjs.com)-jest
+# [gulp](http://gulpjs.com)-jest-iojs
 
-Gulp plugin for the Jest test library 
-
+Gulp plugin for Jest on io.js, originally forked from https://github.com/Dakuan/gulp-jest
 
 ## Installation
 
 ```bash
-$ npm install gulp-jest
+$ npm i -D gulp-jest-iojs
 ```
 
 ## Usage
 
 ```javascript
-var jest = require('gulp-jest');
+var jest = require('gulp-jest-iojs');
 
 gulp.task('jest', function () {
     return gulp.src('__tests__').pipe(jest({
@@ -49,4 +48,4 @@ as per [Jest config](http://facebook.github.io/jest/docs/api.html#config-options
 
 ## License
 
-MIT © [Dominic Barker](http://www.dombarker.co.uk)
+MIT © [Michael Heuberger](http://www.binarykitchen.com), [Dominic Barker](http://www.dombarker.co.uk)
