@@ -1,6 +1,6 @@
 {
   "name": "gulp-jest-iojs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gulp plugin for Jest on io.js",
   "main": "index.js",
   "scripts": {
@@ -30,14 +30,14 @@
       "iojs": ">=2.0.0"
   },
   "dependencies": {
-    "jest-cli": "0.5.1",
+    "jest-cli": "0.5.8",
     "gulp-util": "3.0.6",
     "through2": "2.0.0",
     "react-tools": "0.13.3"
   },
   "devDependencies": {
     "assert": "1.3.0",
-    "mocha": "2.3.0",
+    "mocha": "2.3.3",
     "gulp": "3.9.0"
   },
   "keywords": [
