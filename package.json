@@ -1,33 +1,27 @@
 {
   "name": "gulp-jest-iojs",
-  "version": "1.0.3",
-  "description": "Gulp plugin for Jest on io.js",
+  "version": "1.0.0",
+  "description": "Gulp plugin for Jest - supports passing argv options to jest",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js -t 10000"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/binarykitchen/gulp-jest-iojs"
+    "url": "https://github.com/pyryk/gulp-jest-iojs"
   },
   "author": {
-    "name": "Michael Heuberger",
-    "email": "michael.heuberger@binarykitchen.com"
+    "name": "Pyry Kröger",
+    "email": "pyry@krogerit.net"
   },
-  "contributors": [
-      {
-          "name": "Dominic Barker",
-          "email": "dom.barker808@gmail.com"
-      }
-  ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/binarykitchen/gulp-jest-iojs/issues"
+    "url": "https://github.com/pyryk/gulp-jest-iojs/issues"
   },
-  "homepage": "https://github.com/binarykitchen/gulp-jest-iojs",
+  "homepage": "https://github.com/pyryk/gulp-jest-iojs",
   "engines": {
-      "iojs": ">=2.0.0"
+      "node": ">=4.0.0"
   },
   "dependencies": {
     "jest-cli": "0.5.8",
@@ -53,6 +47,7 @@
     "bdd",
     "qunit",
     "spec",
-    "tap"
+    "tap",
+    "argv"
   ]
 }
